@@ -8,7 +8,7 @@
 r4mesh.rがメインのスクリプトです。GUIを立ち上げてsource関数から呼び出してください。
 エンコーディングはUTF-8です。
 
-'''{r}
+'''
 source("r4mesh.r", encoding="UTF-8")
 '''
 
