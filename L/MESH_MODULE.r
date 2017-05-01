@@ -1,13 +1,3 @@
-# *********************************************************
-# name       :MESH_MODULE
-# author     :Shinya SUZUKI
-# Copyright  :(C) 2015 Shinya SUZUKI All Rights Reserved.
-# Modified   :2017/04/20
-# Description:
-# mesh2bl
-# meshsize_rectangle_coord
-# bl2mesh
-# *********************************************************
 MESH_MODULE <- setRefClass (
 
 	Class  = "MESH_MODULE",
