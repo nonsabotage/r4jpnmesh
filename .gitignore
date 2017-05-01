@@ -1,0 +1,14 @@
+*.pptx
+*.pdf
+*.qgs
+*.qgs~
+*.shp
+*.dbf
+*.prj
+*.qml
+*.shx
+*.cpg
+*.png
+*.pngw
+dat/avs_50m.*
+dat/ca_eq16414.*
