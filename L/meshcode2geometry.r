@@ -3,7 +3,7 @@ if (!exists("MESH_MODULE")) {
 require(purrr)
 require(dplyr)
 require(sf)
-meshcode2geometry <- function (mesh_code, mesh_level=5) {
+meshcode2geometry <- function (mesh_code, mesh_level=5, num_epsg=4612) {
     MM <- MESH_MODULE$new()
     bl <- NULL
     if (mesh_level <= 6) {
@@ -22,6 +22,6 @@ meshcode2geometry <- function (mesh_code, mesh_level=5) {
         rectangle_coord %>%
         map(list) %>%
         map(st_multipolygon) %>%
-        st_sfc(crs=4612)
+        st_sfc(crs=num_epsg)
     mesh_geometry}
 
