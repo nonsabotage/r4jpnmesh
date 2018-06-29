@@ -50,7 +50,7 @@ main <- function () {
             st_write(target_tbl, op, driver='ESRI Shapefile', layer_options="ENCODING=UTF-8")
         })}
 
-    cat ("\n変換が終わりました.\n")
+    cat ("\n変換が終わりました. シェープファイルの空間参照系が平面直角座標系になっておりませんが, 座標値は正常であるとともに, GISで正しく表示されます\n")
 }
 
 main()
